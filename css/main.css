@@ -50,3 +50,7 @@ img{
     border: 1px solid #ccc;
     overflow-x: auto;
 }
+
+.component__code ul{
+    list-style: none;
+}
