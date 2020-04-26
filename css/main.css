@@ -1,6 +1,10 @@
 :root {
 --font-sans-serif: transat-text, sans-serif; font-weight: 500; font-style: normal;
 --font-medium: rhode-wide, sans-serif; font-weight: 600; font-style: normal;
+--light-green: #bcdbd8;
+--blue: #0634a2;
+--peach: #f9ddc5;
+--ivory: #faf4ef;
 }
 
 html {
