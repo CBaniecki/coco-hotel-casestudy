@@ -35,4 +35,5 @@ img{
 
 .component__img{
     border: 1px solid #ccc;
+    overflow-x: auto;
 }
