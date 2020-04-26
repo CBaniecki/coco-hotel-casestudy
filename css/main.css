@@ -51,6 +51,10 @@ img{
     overflow-x: auto;
 }
 
+.component__code{
+    border: 1px solid #ccc;
+}
+
 .component__code ul{
     list-style: none;
 }
