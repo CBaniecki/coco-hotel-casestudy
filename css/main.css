@@ -1,6 +1,6 @@
 :root {
 --font-sans-serif: transat-text, sans-serif; font-weight: 500; font-style: normal;
---font-medium: rhode-wide, sans-serif; font-weight: 600; font-style: normal;
+--font-medium: rhode, sans-serif; font-weight: 500; font-style: normal;
 --light-green: #bcdbd8;
 --blue: #0634a2;
 --peach: #f9ddc5;
@@ -27,6 +27,10 @@ body{
 h1, h2, h3, h4, h5{
     font-family: var(--font-medium);
     line-height: 1.2;
+}
+
+h2{
+    font-size: 2rem;
 }
 
 img{
