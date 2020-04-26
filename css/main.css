@@ -14,6 +14,10 @@ html {
     box-sizing: inherit;
   }
 
+/**
+* Typography
+*/
+
 body{
    font-family: var(--font-sans-serif);
    color: var(--blue);
@@ -28,6 +32,10 @@ img{
     max-width: 100%;
     display: block;
 }
+
+/**
+* .component
+*/ 
 
 .component img{
     max-width: initial;
