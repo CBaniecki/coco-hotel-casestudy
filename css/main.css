@@ -1,5 +1,5 @@
 :root {
-
+--font-sans-serif: transat-text, sans-serif; font-weight: 500; font-style: normal;
 }
 
 html {
@@ -10,8 +10,6 @@ html {
   }
 
 body{
-    font-family: transat-text, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+   font-family: var(--font-sans-serif);
 }
   
