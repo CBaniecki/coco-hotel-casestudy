@@ -76,4 +76,15 @@ img{
 .second-nav{
     color:var(--blue);
     background-color: var(--ivory);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.offers{
+    background-color: var(--light-green);
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
