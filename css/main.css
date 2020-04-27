@@ -61,7 +61,7 @@ img{
 }
 
 /**
-* .main nav
+* .nav
 */
 
 .main-nav{
@@ -71,4 +71,9 @@ img{
     line-height: 35px;
     letter-spacing: 1px;
 
+}
+
+.second-nav{
+    color:var(--blue);
+    background-color: var(--ivory);
 }
