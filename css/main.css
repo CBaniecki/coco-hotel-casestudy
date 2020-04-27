@@ -81,7 +81,7 @@ img{
 }
 
 
-.offers{
+.flat-list{
     background-color: var(--light-green);
     color: var(--blue);
     text-transform: uppercase;
