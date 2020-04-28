@@ -117,3 +117,8 @@ img{
 .body-text{
     background-color: var(--light-green);
 }
+
+.orange-heading{
+    background-color: var(--peach);
+    color: var(--red-orange);
+}
