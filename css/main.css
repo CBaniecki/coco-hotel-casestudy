@@ -1,5 +1,5 @@
 :root {
---font-sans-serif: transat-text, sans-serif; font-weight: 300; font-style: normal;
+--font-sans-serif: transat-text, sans-serif; font-weight: 400; font-style: normal;
 --font-medium: rhode-extended, sans-serif; font-weight: 600; font-style: normal;
 --light-green: #bcdbd8;
 --blue: #0634a2;
@@ -161,7 +161,13 @@ img{
 * .post
 */
 
-.post{
+.container{
+    margin: auto;
+    overflow: auto;
+}
+
+
+.previous-post{
     background-color: var(--light-green);
     color: var(--blue);
     height: 570px;
@@ -182,14 +188,3 @@ img{
 
 }
 
-.img{
-    width: 60%;
-}
-.post-image img{
-    float: left;
-    width: 440px;
-    height: 570px;
-    margin: 0;
-    overflow: hidden;
-    padding-right: 200px;
-}
