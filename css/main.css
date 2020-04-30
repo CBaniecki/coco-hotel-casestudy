@@ -157,34 +157,4 @@ img{
     text-transform: none;
 }
 
-/**
-* .post
-*/
-
-.container{
-    margin: auto;
-    overflow: auto;
-}
-
-
-.previous-post{
-    background-color: var(--light-green);
-    color: var(--blue);
-    height: 570px;
-    padding: 1rem 1rem;
-}
-
-.post > * {
-    float: right;
-    padding: 0;
-    width: 43%;
-    overflow: hidden;
-    padding-right: 26px;
-    margin-left: 29px;
-} 
-
-.post .post-title{
-    font-family: var(--font-medium);
-
-}
 
