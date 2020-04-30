@@ -9,6 +9,7 @@
 --red-orange: #d34848;
 }
 
+
 html {
     box-sizing: border-box;
   }
@@ -155,3 +156,24 @@ img{
     letter-spacing: none;
     text-transform: none;
 }
+
+/**
+* .post
+*/
+
+.post{
+    background-color: var(--light-green);
+    color: var(--blue);
+    height: 570px;
+ 
+    padding: 1rem 1rem;
+}
+
+.post > * {
+    float: right;
+    padding: 0;
+    width: 43%;
+    overflow: hidden;
+    padding-right: 26px;
+    margin-left: 29px;
+} 
