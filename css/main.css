@@ -81,15 +81,19 @@ img{
     background-color: var(--sand-brown);
     font-size: 20px;
     line-height: 35px;
-    letter-spacing: 1px;
+    kerning: 5px;
 
 }
 
 .second-nav{
-    color:var(--blue);
+    color: var(--blue);
     background-color: var(--ivory);
-    letter-spacing: 2px;
     text-transform: uppercase;
+    font-size: 32px;
+}
+
+.second-nav ul{
+    line-height: 105px;
 }
 
 /**
@@ -136,4 +140,8 @@ img{
     font-size: 31px;
     text-transform: uppercase;
     letter-spacing: .2px;
+}
+
+.links .blue-heading{
+    font-size: 8pt;
 }
