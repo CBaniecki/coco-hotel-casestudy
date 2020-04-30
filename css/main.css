@@ -165,7 +165,6 @@ img{
     background-color: var(--light-green);
     color: var(--blue);
     height: 570px;
- 
     padding: 1rem 1rem;
 }
 
@@ -177,3 +176,20 @@ img{
     padding-right: 26px;
     margin-left: 29px;
 } 
+
+.post .post-title{
+    font-family: var(--font-medium);
+
+}
+
+.img{
+    width: 60%;
+}
+.post-image img{
+    float: left;
+    width: 440px;
+    height: 570px;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 200px;
+}
