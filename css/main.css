@@ -145,3 +145,7 @@ img{
 .links .blue-heading{
     font-size: 8pt;
 }
+
+.blue-heading .sub-heading{
+    font-size: 20px;
+}
