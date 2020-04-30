@@ -1,6 +1,6 @@
 :root {
 --font-sans-serif: transat-text, sans-serif; font-weight: 500; font-style: normal;
---font-medium: rhode, sans-serif; font-weight: 500; font-style: normal;
+--font-medium: rhode-extended, sans-serif; font-weight: 600; font-style: normal;
 --light-green: #bcdbd8;
 --blue: #0634a2;
 --peach: #f9ddc5;
@@ -130,4 +130,6 @@ img{
 .blue-heading{
     background-color: var(--light-green);
     color: var(--blue);
+    font-size: 30px;
+    text-transform: uppercase;
 }
