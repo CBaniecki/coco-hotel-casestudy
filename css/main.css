@@ -125,11 +125,15 @@ img{
 .orange-heading{
     background-color: var(--peach);
     color: var(--red-orange);
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: .2px;
 }
 
 .blue-heading{
     background-color: var(--light-green);
     color: var(--blue);
-    font-size: 30px;
+    font-size: 31px;
     text-transform: uppercase;
+    letter-spacing: .2px;
 }
