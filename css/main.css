@@ -157,4 +157,42 @@ img{
     text-transform: none;
 }
 
+/**
+* .main-post
+*/
+
+.container{
+    margin: auto;
+    overflow: auto;
+}
+
+.post-content{
+    margin-top: 120px;
+}
+
+.main-post{
+    background-color: var(--light-green);
+    height: 570px;
+    width: 58rem;
+    padding: 1rem 1rem;
+}
+
+.main-post > * {
+    float: right;
+    padding: 0;
+    width: 43%;
+    overflow: hidden;
+    padding-right: 26px;
+    margin-left: 29px;
+}
+
+.post-image img{
+    float: left;
+    width: 440px;
+    height: 570px;
+    margin: 0;
+    overflow: hidden;
+    padding-right: 200px;
+    position: absolute;
+}
 
