@@ -118,7 +118,16 @@ img{
     background-color: var(--light-green);
 }
 
+/**
+* headings
+*/
+
 .orange-heading{
     background-color: var(--peach);
     color: var(--red-orange);
+}
+
+.blue-heading{
+    background-color: var(--light-green);
+    color: var(--blue);
 }
