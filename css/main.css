@@ -135,6 +135,10 @@ img{
     letter-spacing: .2px;
 }
 
+.links .orange-heading{
+    font-size: 16px;
+}
+
 .blue-heading{
     background-color: var(--light-green);
     color: var(--blue);
