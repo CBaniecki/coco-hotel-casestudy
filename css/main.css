@@ -175,7 +175,7 @@ img{
     background-color: var(--light-green);
     height: 570px;
     width: 70rem;
-    padding: 1rem 1rem;
+    
 }
 
 .main-post > * {
@@ -183,14 +183,14 @@ img{
     padding: 0;
     width: 43%;
     overflow: hidden;
-    padding-right: 26px;
+    padding-right: 30px;
     margin-left: 29px;
 }
 
 .post-image img{
     float: left;
-    width: 350px;
-    height: 540px;
+    width: 407px;
+    height: 570px;
     margin: 0;
     overflow: hidden;
     margin-left: 10px;
