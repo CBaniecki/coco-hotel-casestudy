@@ -161,6 +161,12 @@ img{
     text-transform: none;
 }
 
+.main-nav h3{
+    
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
 /**
 * .main-post
 */
