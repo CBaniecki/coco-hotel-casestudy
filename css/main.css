@@ -183,7 +183,7 @@ img{
     padding: 0;
     width: 43%;
     overflow: hidden;
-    padding-right: 30px;
+    padding-right: 35px;
     margin-left: 29px;
 }
 
@@ -192,8 +192,8 @@ img{
     width: 407px;
     height: 570px;
     margin: 0;
+    padding: 0;
     overflow: hidden;
-  
     position: absolute;
 }
 
