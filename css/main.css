@@ -207,3 +207,22 @@ img{
     position: absolute;
 }
 
+/**
+* footer
+*/ 
+
+.footer-flat__list{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-flat__list > * {
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.footer-flat__list > :last-child{
+    padding-right: 0;
+}
+
