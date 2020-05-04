@@ -259,3 +259,10 @@ img{
 .srction-image__one{
     background-color: var(--blue);
 }
+
+.nav-section .main-post {
+    background-color: var(--ivory);
+    color: var(--blue);
+    font-size: 35px;
+    padding: 0;
+}
