@@ -211,6 +211,11 @@ img{
 * footer
 */ 
 
+.footer-section{
+    background-color: var(--ivory);
+    color: var(--blue);
+}
+
 .footer-flat__list{
     display: flex;
     list-style: none;
