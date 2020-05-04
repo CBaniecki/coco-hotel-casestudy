@@ -47,10 +47,15 @@ h4{
     font-size: normal;
 }
 
-
 h2{
     font-size: 2rem;
 }
+
+h6{
+    color: var(--red-orange);
+}
+
+
 
 p{
  font-family: var(--font-sans-serif);
@@ -265,4 +270,8 @@ img{
     color: var(--blue);
     font-size: 35px;
     padding: 0;
+}
+
+.latest-news .flat-list{
+    background-color: var(--peach);
 }
