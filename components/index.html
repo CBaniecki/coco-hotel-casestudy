@@ -11,22 +11,47 @@
         <script src="https://kit.fontawesome.com/d1e5567d36.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>Web Components</h1>
-
-        <h2>Typography Defaults</h2>
     
         <div class="sidenav">
-            <a href="#!">Body</a>
-            <a href="#!">Headings</a>
-            <a href="#!">Wordmark</a>
-            <a href="#!">Button</a>
-            <a href="#!">Links</a>
-            <a href="#!">Navigation</a>
-            <a href="#!">Second Nav Section</a>
-            <a href="#!">Image Section Dividers</a>
-            <a href="#!">Flat List Section</a>
-            <a href="#!">Post Section</a>
-            <a href="#!">Footer</a>
+            <div class="sidenav-heading">
+            <a href="#body">Body</a>
+            </div>
+            <div class="sidenav-heading">
+            <a href="#headings">Headings</a>
+            </div>
+            
+            <div class="sidenav-heading">
+            <a href="#wordmark!">Wordmark</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#button">Button</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#links">Links</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#navigation">Navigation</a>
+            </div>
+
+           
+            <div class="sidenav-heading">
+            <a href="#image-section">Image Section Dividers</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#flat-list">Flat List Section</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#post-section">Post Section</a>
+            </div>
+
+            <div class="sidenav-heading">
+            <a href="#footer">Footer</a>
+            </div>
         </div>
 
 
@@ -35,10 +60,14 @@
 
 
 
+    <div class="main">
 
+        <h1>Web Components</h1>
+
+        <h2>Typography Defaults</h2>
 
         <article class="component">
-            <h3 class="component__name">body</h3>
+            <h3 id="body" class="component__name">body</h3>
             <div class="component__img">
             <img 
                 srcset="img/div-intro__p.png 2x"
@@ -65,7 +94,7 @@
     </article>
 
     <article class="component">
-        <h2 class="component__name">headings</h2>
+        <h2 id="headings" class="component__name">headings</h2>
             <div class="component__img">
                 <img srcset="img/div-intro__heading copy.png 2x" src="img/div-intro__heading copy.png" alt="h3" />
                 <img srcset="img/latest-header.png 2x" src="img/latest-header.png" alt="h3" /> 
@@ -94,7 +123,7 @@
     </article>
 
     <article class="component">
-        <h2 class="component__name">Wordmark</h2>
+        <h2 id="wordmark" class="component__name">Wordmark</h2>
             <div class="component__img">
                 <img srcset="img/main_wordmark.png 2x" src="img/main_wordmark.png" alt="wordmark">
             </div>
@@ -111,7 +140,7 @@
     </article>
 
     <article class="component">
-        <h2 class="component__name">Button</h2>
+        <h2 id="button" class="component__name">Button</h2>
             <div class="component__img">
                 <img srcset="img/header-button.png 2x" src="img/header-button.png" alt="button icon">
             </div>
@@ -129,7 +158,7 @@
 
 
     <article class="component">
-        <h2 class="component__name">links</h2>
+        <h2 id="links" class="component__name">links</h2>
             <div class="component__img">
                 <img srcset="img/div-intro__link copy.png 2x" src="img/div-intro__link copy.png" alt="links" />
                 <img srcset="img/footer-link.png 2x" src="img/footer-link.png" alt="links" />
@@ -157,7 +186,7 @@
     </article>
 
     <article class="component">
-        <h2 class="component__name">navigation</h2>
+        <h2 id="navigation" class="component__name">navigation</h2>
             <div class="component__img">
                 <img srcset="img/main-nav__list.png 2x" src="img/main-nav__list.png" alt="main navigation" />
          
@@ -240,7 +269,7 @@
  
 
     <article class="component">
-        <h2 class="component__name">image section dividers</h2>
+        <h2 id="image-section" class="component__name">image section dividers</h2>
             <div class="component__img">
                 <img srcset="img/img__divider copy.png 2x" src="img/img__divider copy.png" alt="img dividers" />
             
@@ -273,7 +302,7 @@
     </article>
    
     <article class="component">
-        <h2 class="component__name">flat list section</h2>
+        <h2 id="flat-list" class="component__name">flat list section</h2>
        
             <div class="component__img">
                 <img srcset="img/offers-main.png 2x" src="img/offers-main.png" alt="offers section" />
@@ -369,7 +398,7 @@
 
     <article class="component">
 
-        <h2 class="component__name">Post Section</h2>
+        <h2 id="post-section" class="component__name">Post Section</h2>
 
             <div class="component__img">
                 <img srcset="img/div-intro copy.png 2x" src="img/div-intro copy.png" alt="post image">
@@ -422,7 +451,7 @@
 
         <article class="component">
 
-            <h2 class="component__name">Footer</h2>
+            <h2 id="footer" class="component__name">Footer</h2>
 
             <div class="component__img">
                 <img srcset="img/footer.png 2x" src="img/footer.png" alt="page footer">
@@ -496,6 +525,6 @@
             </div>
         
         </article>
-
+    </div>
     </body>
 </html>
