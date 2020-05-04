@@ -217,7 +217,7 @@ img{
 }
 
 /**
-* footer
+* section-flat__list
 */ 
 
 .footer-section{
@@ -225,18 +225,18 @@ img{
     color: var(--blue);
 }
 
-.footer-flat__list{
+.section-flat__list{
     display: flex;
     list-style: none;
     padding-left: 0;
 }
 
-.footer-flat__list > * {
+.section-flat__list > * {
     flex: 1;
     padding-right: 1rem;
 }
 
-.footer-flat__list > :last-child{
+.section-flat__list > :last-child{
     padding-right: 0;
 }
 
@@ -250,4 +250,12 @@ img{
 .sub-mark{
     font-size: 25px;
     line-height: 5px;
+}
+
+/**
+* section image
+*/
+
+.srction-image__one{
+    background-color: var(--blue);
 }
