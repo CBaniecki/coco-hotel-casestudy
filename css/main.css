@@ -95,6 +95,12 @@ img{
 
 }
 
+.main-nav li{
+    font-size: 14px;
+    list-style: none;
+    line-height: 26px;
+}
+
 .second-nav{
     color: var(--blue);
     background-color: var(--ivory);
@@ -217,6 +223,16 @@ img{
 }
 
 /**
+* previous-post
+*/
+
+.previous-post .main-post{
+    height: none;
+    width: 100%;
+}
+
+
+/**
 * section-flat__list
 */ 
 
@@ -300,6 +316,7 @@ img{
 
 .main-heading{
     text-align: center;
+    padding: 300px;
 }
 
 .main-heading h3{
@@ -314,4 +331,17 @@ img{
     background-color: transparent;
     overflow-x: hidden;
     align-items: center;
+}
+
+.wordmark .sub-mark h4 p{
+    line-height: 5px;
+}
+
+.main-nav .sidenav{
+    background-color: transparent;
+    overflow-x: hidden;
+}
+
+.main-nav .sidenav ul{
+    padding-top: 180px;
 }
