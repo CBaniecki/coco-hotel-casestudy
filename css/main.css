@@ -256,7 +256,7 @@ img{
 * section image
 */
 
-.srction-image__one{
+.section-image__one{
     background-color: var(--blue);
 }
 
@@ -296,4 +296,10 @@ img{
     padding: 10rem;
     display: block;
     box-sizing: inherit;
+}
+
+.main-heading{
+    
+    padding-right: 80px;
+    padding-left: 80px;
 }
