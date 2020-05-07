@@ -316,9 +316,11 @@ img{
 
 .main-heading{
     text-align: center;
-    padding: 300px;
 }
 
+.main-nav .main-heading{
+    padding: 362px;
+}
 .main-heading h3{
     line-height: 10px;
 }
