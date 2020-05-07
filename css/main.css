@@ -299,7 +299,19 @@ img{
 }
 
 .main-heading{
-    
-    padding-right: 80px;
-    padding-left: 80px;
+    text-align: center;
+}
+
+.main-heading h3{
+    line-height: 10px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading .sidenav{
+    background-color: transparent;
+    overflow-x: hidden;
+    align-items: center;
 }
