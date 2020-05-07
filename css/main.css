@@ -9,11 +9,6 @@
 --red-orange: #d34848;
 }
 
-@font-face{
-    font-family: "Quiche Display-Regular";
-    src: url(css/fonts/QuicheDisplay-Regular.otf) format("opentype");
-}
-
 html {
     box-sizing: border-box;
   }
@@ -42,7 +37,7 @@ h2{
 }
 
 h4{
-    font-family: 'Quiche Display-Regula', serif;
+    font-family: 'Cormorant Infant', serif;
     font-weight: normal;
     font-size: normal;
 }
