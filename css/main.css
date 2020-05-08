@@ -412,15 +412,18 @@ img{
  }
 
  .section-flat__list .footer-section{
-     padding-top: 128px;
-     padding-bottom: 128px;
+    height: 443px;
 
  }
 
- .footer-section
+ .footer-section{
+     padding:90px;
+     padding-left: 20px;
+ }
 
  .footer-section li{
      list-style-type: none;
+     padding:4px;
  }
 
  .footer-section p{
