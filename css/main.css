@@ -336,7 +336,6 @@ img{
 
 .heading{
     text-align: center;
-    padding: 40px;
 }
 
 .heading .sidenav{
@@ -399,4 +398,18 @@ img{
  .article-class{
     background-color: var(--light-green);
     padding-top: 0px;
+ }
+
+ .padded-image .post{
+     background-color: var(--blue);
+     height: 100%;
+     width: 100%;
+ }
+
+ .padded-image .post img{
+ }
+
+ .span-image img{
+     width: 100%;
+     height: 100%;
  }
