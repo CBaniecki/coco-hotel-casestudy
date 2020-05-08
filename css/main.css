@@ -368,4 +368,12 @@ img{
     padding-bottom: 20px;
 }
 
- 
+ .ivory{
+     color: var(--ivory);
+     background: none;
+ }
+
+ .blue{
+     color:var(--blue);
+     background: none;
+ }
