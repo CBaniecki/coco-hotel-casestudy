@@ -406,10 +406,23 @@ img{
      width: 100%;
  }
 
- .padded-image .post img{
- }
-
  .span-image img{
      width: 100%;
      height: 100%;
+ }
+
+ .section-flat__list .footer-section{
+     padding-top: 128px;
+     padding-bottom: 128px;
+
+ }
+
+ .footer-section li{
+     list-style-type: none;
+ }
+
+ .footer-section p{
+     text-transform: uppercase;
+     padding-left: 38px;
+     padding-bottom: 24px;
  }
