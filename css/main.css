@@ -326,7 +326,9 @@ img{
 }
 
 .main-nav .main-heading{
-    padding: 362px;
+    padding: 320px;
+    padding-bottom: 340px;
+    background-image: url(../components/img/header-image.png);
 }
 .main-heading h3{
     line-height: 10px;
@@ -376,4 +378,9 @@ img{
  .blue{
      color:var(--blue);
      background: none;
+ }
+
+ .background-image img{
+     width: 100%;
+     
  }
