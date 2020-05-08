@@ -354,10 +354,12 @@ img{
 
 
 .padded-image .section-image__one{
-    padding: 130px;
+    padding: 110px;
 }
 
 .padded-image .section-image__one img{
-    padding: 120px;
-
+    padding-left:  160px;
+    padding-right: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
