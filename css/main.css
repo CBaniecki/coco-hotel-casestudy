@@ -350,3 +350,14 @@ img{
 .main-nav .sidenav ul{
     padding-top: 180px;
 }
+
+
+
+.padded-image .section-image__one{
+    padding: 130px;
+}
+
+.padded-image .section-image__one img{
+    padding: 120px;
+
+}
