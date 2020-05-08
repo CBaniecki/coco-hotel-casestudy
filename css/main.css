@@ -388,3 +388,13 @@ img{
  .nav .nav-section .main-post{
      width: 100%;
  }
+
+ .article-class .flat-list {
+     padding-left: 120px;
+     padding-right: 120px;
+     
+ }
+
+ .article-class{
+    background-color: var(--light-green);
+ }
