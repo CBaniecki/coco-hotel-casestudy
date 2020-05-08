@@ -397,4 +397,5 @@ img{
 
  .article-class{
     background-color: var(--light-green);
+    margin: 0;
  }
