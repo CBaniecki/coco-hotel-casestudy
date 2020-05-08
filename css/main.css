@@ -196,6 +196,10 @@ img{
     padding-right: 5px;
 }
 
+.post-content ul{
+    list-style-type: none;
+}
+
 .main-post{
     background-color: var(--light-green);
     height: 570px;
@@ -362,4 +366,10 @@ img{
     padding-right: 160px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.nav .nav-section .main-post{
+    width: 100%;
+    padding-top: 120;
+    padding: 250px;
 }
