@@ -440,6 +440,7 @@ img{
 
  .post-section{
     background-color: var(--light-green);
+    padding: 0px;
  }
 
  .padded-image .post{
