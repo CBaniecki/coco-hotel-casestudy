@@ -200,6 +200,18 @@ img{
     list-style-type: none;
 }
 
+.post-content h3{
+    text-transform: uppercase;
+}
+
+.post-content p h3{
+    padding-right: 30px;
+
+}
+
+.post-content p{
+    padding: 1em;
+}
 .main-post{
     background-color: var(--light-green);
     height: 570px;
@@ -233,7 +245,7 @@ img{
 .previous-post .main-post{
     height: 910px;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 
@@ -287,6 +299,12 @@ img{
     color: var(--blue);
     font-size: 35px;
     padding: 0;
+}
+
+.nav .nav-section{
+    width: 100%;
+    height: 570px;
+    background-color: var(--ivory);
 }
 
 .latest-news .flat-list{
@@ -384,9 +402,7 @@ img{
      
  }
 
- .nav .nav-section .main-post{
-     width: 100%;
- }
+
 
  .article-class .flat-list {
      padding-left: 180px;
@@ -438,3 +454,5 @@ img{
 .article-class .latest-news{
      color: var(--peach);
  }
+
+
