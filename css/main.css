@@ -219,6 +219,14 @@ img{
 .post-content p{
     padding: 1em;
 }
+
+.room-nav-header{
+    font-size: 15px;
+}
+
+
+
+
 .main-post{
     background-color: var(--light-green);
     height: 570px;
@@ -237,8 +245,8 @@ img{
 
 .post-image img{
     float: left;
-    width: 407px;
-    height: 570px;
+    width: 507px;
+    height: 670px;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -307,20 +315,26 @@ img{
     background-color: var(--ivory);
     color: var(--blue);
     font-size: 35px;
-    padding: 90px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     height: 943px;
 
 }
 
-.nav-section> *{
+.nav-section > *{
     float: right;
-    padding: 0;
     width: 43%;
     overflow: hidden;
-    padding-right: 35px;
-    margin-left: 29px;
+    padding-right: 10px;
+    margin-left: 10px;
 
 }
+
+.nav-section .post-image img{
+}
+
+
+
 
 .latest-news .flat-list{
     background-color: var(--peach);
