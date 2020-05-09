@@ -389,9 +389,6 @@ img{
     line-height: 5px;
 }
 
-.wordmark .heading .sidenav{
-}
-
 .main-nav .sidenav{
     background-color: transparent;
     overflow-x: hidden;
@@ -439,7 +436,7 @@ img{
 
  .post-section{
     background-color: var(--light-green);
-    padding-top: 0px;
+    padding: 0px;
  }
 
  .padded-image .post{
