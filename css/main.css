@@ -294,6 +294,7 @@ img{
     line-height: 5px;
     font-size: 35px;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .sub-mark{
@@ -330,13 +331,8 @@ img{
 
 }
 
-.nav-section .post-image img{
-}
 
-
-
-
-.latest-news .flat-list{
+.latest-news .article-class .flat-list{
     background-color: var(--peach);
 }
 
@@ -387,11 +383,13 @@ img{
 .heading .sidenav{
     background-color: transparent;
     overflow-x: hidden;
-    align-items: center;
 }
 
 .wordmark .sub-mark h4 p{
     line-height: 5px;
+}
+
+.wordmark .heading .sidenav{
 }
 
 .main-nav .sidenav{
@@ -433,13 +431,13 @@ img{
 
 
 
- .article-class .flat-list {
+  .flat-list {
      padding-left: 180px;
      padding-right: 185px;
      
  }
 
- .article-class{
+ .post-section{
     background-color: var(--light-green);
     padding-top: 0px;
  }
@@ -480,8 +478,11 @@ img{
      padding-left: 10px;
  }
 
-.article-class .latest-news{
-     color: var(--peach);
- }
+.section-flat__list .padded-image{
+    padding: 0px;
+}
 
+.section-flat__list .padded-image img{
+    padding: 140px;
+}
 
