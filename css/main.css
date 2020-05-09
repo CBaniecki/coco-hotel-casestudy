@@ -334,7 +334,10 @@ img{
 
 .latest-news .article-class .flat-list{
     background-color: var(--peach);
+    padding: 0px;
 }
+
+
 
 .sidenav{
     height: 100%;
@@ -423,6 +426,7 @@ img{
 
  .background-image img{
      width: 100%;
+     padding: 0px;
      
  }
 
@@ -436,7 +440,6 @@ img{
 
  .post-section{
     background-color: var(--light-green);
-    padding: 0px;
  }
 
  .padded-image .post{
