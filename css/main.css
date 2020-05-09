@@ -434,3 +434,7 @@ img{
  .footer-section{
      padding-left: 10px;
  }
+
+.article-class .latest-news{
+     color: var(--peach);
+ }
