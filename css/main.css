@@ -82,8 +82,12 @@ img{
     list-style: none;
 }
 
-.component__code .offers{
-    padding-right: 60px;
+.offers .flat-list{
+    padding-left: 20px;
+}
+
+.latest-news .flat-list{
+    padding-left: 35px;
 }
 
 /**
@@ -253,6 +257,11 @@ img{
     padding: 0;
     overflow: hidden;
     position: absolute;
+}
+
+.component-post .post-image img{
+    height: 570px;
+    width: 407px;
 }
 
 /**
