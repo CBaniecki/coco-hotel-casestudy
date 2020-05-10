@@ -377,12 +377,6 @@ img{
     overflow-x: hidden;
 }
 
-.heading .logo .sidenav{
-    background-color: transparent;
-    overflow-x: hidden;
-    z-index: 2;
-}
-
 
 .wordmark .sub-mark h4 p{
     line-height: 5px;
@@ -396,11 +390,17 @@ img{
 .main-nav .sidenav ul{
     padding-top: 180px;
 }
-
-.main-nav .sidenav li{
-    background-color: blue;
+.nav-scroll li{
+   color:var(--white);
+   background-color: var(--blue);
+   opacity: 25%;
 }
+.nav-scroll .wordmark h4 {
 
+
+    background-color: var(--white);
+
+}
 
 .padded-image .section-image__one{
     padding: 110px;
@@ -411,16 +411,7 @@ img{
     padding-right: 170px;
     padding-top: 20px;
     padding-bottom: 20px;
-}
 
- .ivory{
-     color: var(--ivory);
-     background: none;
- }
-
- .blue{
-     color:var(--blue);
-     background: none;
  }
 
  .background-image img{
