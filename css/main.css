@@ -290,9 +290,8 @@ img{
 
 .wordmark{
     line-height: 5px;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
-    text-align: center;
 }
 
 .sub-mark{
@@ -391,6 +390,13 @@ img{
     padding-top: 180px;
 }
 
+.main-post .main-nav .sidenav li{
+    color: var(--blue);
+}
+
+.padded-image .main-nav .sidenav li{
+    color: var(--ivory);
+}
 
 
 .padded-image .section-image__one{
@@ -441,12 +447,11 @@ img{
 
  .section-flat__list .footer-section{
     height: 443px;
-
+    max-width: 80rem;
  }
 
  .footer-section{
-     padding:90px;
-     padding-right: 20px;
+     padding:80px;
  }
 
  .footer-section li{
@@ -458,6 +463,10 @@ img{
      text-transform: uppercase;
      padding-left: 38px;
      padding-bottom: 24px;
+ }
+
+ .footer-section h4{
+     padding-left: 30px;
  }
 
  .footer-section{
