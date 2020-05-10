@@ -82,6 +82,10 @@ img{
     list-style: none;
 }
 
+.component__code .offers{
+    padding-right: 60px;
+}
+
 /**
 * .nav
 */
