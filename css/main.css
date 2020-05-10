@@ -377,7 +377,7 @@ img{
     overflow-x: hidden;
 }
 
-.logo .sidenav{
+.heading .logo .sidenav{
     background-color: transparent;
     overflow-x: hidden;
     z-index: 2;
@@ -395,6 +395,10 @@ img{
 
 .main-nav .sidenav ul{
     padding-top: 180px;
+}
+
+.main-nav .sidenav li{
+    background-color: blue;
 }
 
 
