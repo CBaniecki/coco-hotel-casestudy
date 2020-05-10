@@ -117,8 +117,6 @@ img{
 */
 
 .flat-list{
-    background-color: var(--light-green);
-    color: var(--blue);
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 1px;
@@ -476,9 +474,29 @@ img{
 
 .latest-news{
     background-color: var(--peach);
+    padding: 0px;
 }
 
-.latest-news .flat-list{
+.latest-news h3{
     background-color: var(--peach);
     padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: none;
+    margin: 0px;
+}
+
+.offers{
+    background-color: var(--light-green);
+    padding: 0px;
+    height: 900px;
+}
+
+.offers h3{
+    line-height: none;
+    background-color: var(--light-green);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
 }
