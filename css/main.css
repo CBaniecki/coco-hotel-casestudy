@@ -377,6 +377,13 @@ img{
     overflow-x: hidden;
 }
 
+.logo .sidenav{
+    background-color: transparent;
+    overflow-x: hidden;
+    z-index: 2;
+}
+
+
 .wordmark .sub-mark h4 p{
     line-height: 5px;
 }
@@ -390,14 +397,6 @@ img{
     padding-top: 180px;
 }
 
-.main-post .main-nav .sidenav li{
-    color: var(--blue);
-}
-
-.padded-image .main-nav .sidenav li{
-    color: var(--ivory);
-}
-
 
 .padded-image .section-image__one{
     padding: 110px;
@@ -405,7 +404,7 @@ img{
 
 .padded-image .section-image__one img{
     padding-left:  160px;
-    padding-right: 160px;
+    padding-right: 170px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
