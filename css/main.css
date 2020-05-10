@@ -475,7 +475,7 @@ img{
 .latest-news{
     background-color: var(--peach);
     padding: 0px;
-    height: 1000px;
+    height: 1020px;
 }
 
 .latest-news h3{
@@ -502,4 +502,8 @@ img{
     margin: 0px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.latest-news .flat-list{
+    padding-bottom: 20px;
 }
