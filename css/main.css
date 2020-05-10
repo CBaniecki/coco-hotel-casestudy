@@ -430,11 +430,6 @@ img{
      
  }
 
- .post-section{
-    background-color: var(--light-green);
-    padding: 0px;
- }
-
  .padded-image .post{
      background-color: var(--blue);
      height: 100%;
@@ -479,3 +474,11 @@ img{
     padding: 140px;
 }
 
+.latest-news{
+    background-color: var(--peach);
+}
+
+.latest-news .flat-list{
+    background-color: var(--peach);
+    padding: 0px;
+}
