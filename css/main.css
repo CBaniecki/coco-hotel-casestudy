@@ -226,12 +226,6 @@ img{
     padding: 1em;
 }
 
-.room-nav-header{
-    font-size: 15px;
-}
-
-
-
 
 .main-post{
     background-color: var(--light-green);
@@ -263,6 +257,7 @@ img{
     height: 570px;
     width: 407px;
 }
+
 
 /**
 * previous-post
@@ -320,7 +315,9 @@ img{
     background-color: var(--blue);
 }
 
-
+/**
+* nav section
+*/
 
 .nav-section {
     background-color: var(--ivory);
@@ -409,10 +406,7 @@ img{
    opacity: 25%;
 }
 .nav-scroll .wordmark h4 {
-
-
     background-color: var(--white);
-
 }
 
 .padded-image .section-image__one{
@@ -432,8 +426,6 @@ img{
      padding: 0px;
      
  }
-
-
 
   .flat-list {
      padding-left: 180px;
@@ -522,4 +514,8 @@ img{
 
 .latest-news .flat-list{
     padding-bottom: 20px;
+}
+
+.room-nav-header{
+    font-size: 15px;
 }
