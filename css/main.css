@@ -396,9 +396,7 @@ img{
    background-color: var(--blue);
    opacity: 25%;
 }
-.nav-scroll .wordmark h4 {
-    background-color: var(--white);
-}
+
 
 .padded-image .section-image__one{
     padding: 110px;
@@ -501,11 +499,6 @@ img{
     margin: 0px;
     text-align: center;
     text-transform: uppercase;
-}
-
-.latest-news .flat-list{
-    padding-bottom: 20px;
-    padding-left: 45px;
 }
 
 .room-nav-header{
