@@ -81,15 +81,6 @@ img{
 .component__code ul{
     list-style: none;
 }
-
-.offers .flat-list{
-    padding-left: 20px;
-}
-
-.latest-news .flat-list{
-    padding-left: 35px;
-}
-
 /**
 * .nav
 */
@@ -514,6 +505,7 @@ img{
 
 .latest-news .flat-list{
     padding-bottom: 20px;
+    padding-left: 45px;
 }
 
 .room-nav-header{
